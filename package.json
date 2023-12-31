@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc",
-    "http-server": "npx http-server ./ -o"
+    "webpack": "webpack --mode development",
+    "webpack:w": "webpack --mode development --watch",
+    "start": "webpack serve --mode development --open"
   },
   "author": "",
   "license": "ISC",
